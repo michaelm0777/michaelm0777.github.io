@@ -1,4 +1,8 @@
 baseURL: https://michaelm0777.github.io/
 locale: en-us
-title: My New Hugo Project
+title: Michael's Blog
 theme: ["PaperMod"]
+menu:
+  main:
+    - name: website
+      url: https://michaelme.ng
