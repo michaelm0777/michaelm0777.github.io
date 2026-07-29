@@ -17,3 +17,8 @@ menu:
       weight: 10
     - name: website
       url: https://michaelme.ng
+params:
+  homeInfoParams:
+    Title: "Hi, I'm Michael"
+    Content: >
+      I write about stuff going on in my life.

@@ -1,0 +1,23 @@
+/* Title / logo placement — matched to lilianweng.github.io */
+.nav {
+  justify-content: flex-end;
+}
+
+.logo {
+  flex-wrap: inherit;
+  position: fixed;
+  /* 138px suits a short title like "Lil'Log"; bumped for "Michael's Blog" */
+  left: calc((100vw - var(--main-width) - var(--gap) * 2) / 2 - 220px);
+}
+
+/* Keep the logo usable on narrow viewports where the fixed offset goes off-screen */
+@media screen and (max-width: 1100px) {
+  .nav {
+    justify-content: space-between;
+  }
+
+  .logo {
+    position: static;
+    left: auto;
+  }
+}
